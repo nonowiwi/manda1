@@ -1,0 +1,127 @@
+body{
+    background-color: black;
+}
+h2{
+    text-align: center;
+    color: grey;
+    left: 45%;
+    margin-top: 100px;
+    font-size: 2em;
+}
+table{
+    margin-left: 600px;
+    margin-top: 10px;
+    color: red;
+    text-align: center;
+}
+td, th {
+    margin-left: 100px;
+    padding: 0 10px; /* Add horizontal padding to cells */
+  }
+#aerobics_title{
+    color: red;
+    margin-left: 195px;
+}
+#body_building_title{
+    padding-left: 450px;
+    color: red;
+}
+.header{
+    color: red;
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+#background{
+    max-width: 100%;
+}
+#register{
+    border-style: solid;
+    border-color: red;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    background-color: red;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#login{
+    border-style: solid;
+    border-color: white;
+    position: absolute;
+    top: 30px;
+    right: 200px;
+    background-color: transparent;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#register:hover{
+    background-color: transparent;
+    border-color: white;
+}
+
+#login:hover{
+    background-color: red;
+    border-color: red;
+}
+#gym_name{
+    position:absolute;
+    font-family:'Courier New', Courier, monospace;
+    top: 10px;
+    left: 10%;
+    font-size: 3em;
+}
+#quote{
+    color: red;
+    position:absolute;
+    font-family:'Courier New', Courier, monospace;
+    top: 300px;
+    left: 10%;
+    font-size: 4em;
+}
+#quote_continued{
+    color: red;
+    position:absolute;
+    font-family:'Courier New', Courier, monospace;
+    top: 360px;
+    left: 10%;
+    font-size: 4em;
+}
+#aerobics {
+    margin-left: 150px;
+    margin-top: 100px;
+    max-width: 35%;
+    height: auto;
+}
+#aerobics_detail{
+    color: grey;
+    margin-left: 50px;
+}
+#body_building_detail{
+    color: grey;
+    padding-left: 300px;
+}
+#gym_workout {
+    margin-top: 100px;
+    margin-left: 300px;
+    max-width: 35%;
+    height: auto;
+}
+
+.footer{
+    text-align: center;
+}
+
