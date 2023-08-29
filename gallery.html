@@ -11,6 +11,20 @@
 
     <!-- Style CSS-->
     <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 10px;
+      }
+
+      .grid-item {
+        padding: 5px;
+      }
+
+      .grid-item img {
+        width: 100%;
+        height: auto;
+      }
       image {
         display: block;
         margin-left: auto;
@@ -19,7 +33,7 @@
         border:20px;
       }
       body {
-    background-image: linear-gradient(#c23c41,#ffffff);
+    background-image: linear-gradient(#000000,#5f0303);
     
     /*Additional Styling*/
     
@@ -34,31 +48,61 @@
   <body>
     <!-- Add the image to html-->
   <h1> This is our gallery </h1>
-     <img src="GYM1.jpg" height="300px" width="280px" />
-       <img src="GYM2.jpg" height="300px" width="280px"/>
-  <img src="GYM3.jpg" height="300px" width="20px"/>
-  <img src="GYM4.jpg" height="300px" width="280px"/>
-  <img src="GYM5.jpg" height="300px" width="280px"/>
-  <img src="GYM 7.jpg" height="300px" width="280px"/>
-  <img src="GYM 8.jpg" height="300px" width="280px"/>
-  <img src="GYM 9.jpg" height="300px" width="280px"/>
-  <img src="GYM 10.jpg" height="300px" width="280px"/>
-  <img src="GYM 11.jpg" height="300px" width="280px"/>
-  <img src="GYM 12.jpg" height="300px" width="280px"/>
-  <img src="GYM 13 (2).jpg" height="300px" width="280px"/>
-  <img src="GYM 13.jpg" height="300px" width="280px"/>
-  <img src="GYM 14.jpg" height="300px" width="280px"/>
-  <img src="GYM6.jpg" height="300px" width="280px"/>
-  <img src="GYM15.jpg" height="300px" width="280px"/>
-  <img src="GYM16.jpg" height="300px" width="280px"/>
-  <img src="GYM17.jpg" height="300px" width="280px"/>
-  <img src="GYM18.jpg" height="300px" width="280px"/>
-  <img src="GYM19.jpg" height="300px" width="280px"/>
-  <img src="GYM20.jpg" height="300px" width="280px"/>
-  <img src="GYM21.jpg" height="300px" width="280px"/>
-  <img src="GYM22.jpg" height="300px" width="280px"/>
-  <img src="GYM23 (2).jpg" height="300px" width="280px"/>
-  <img src="GYM23.jpg" height="300px" width="280px"/>
-  <img src="GYM24.jpg" height="300px" width="280px"/>
+  <div class="grid-container">
+    <div class="grid-item">
+      <img src="asset/images/pic1.jpg" height="300px"/>
+    </div>
+    <div class="grid-item">
+      <img src="asset/images/pic2.jpg" height="300px"/>
+    </div>
+    <div class="grid-item">
+      <img src="asset/images/pic3.jpg" height="300px"/>
+    </div>
+    <div class="grid-item">
+      <img src="asset/images/pic5.jpg" height="300px"/>
+    </div>
+    <div class="grid-item">
+      <img src="asset/images/pic6.jpg" height="300px"/>
+    </div>
+    <div class="grid-item">
+      <img src="asset/images/pic7.jpg" height="300px"/>
+    </div>
+    <div class="grid-item">
+      <img src="asset/images/pic16.jpg" height="300px"/>
+    </div>
+    <div class="grid-item">
+      <img src="asset/images/pic12.jpg" height="300px"/>
+    </div>
+    <div class="grid-item">
+      <img src="asset/images/pic14.jpg" height="300px"/>
+    </div>
+    <div class="grid-item">
+      <img src="asset/images/pic15.jpg" height="300px"/>
+    </div>
+    <div class="grid-item">
+      <img src="asset/images/pic19.jpg" height="300px"/>
+    </div>
+    <div class="grid-item">
+      <img src="asset/images/pic17.jpg" height="300px"/>
+    </div>
+    <div class="grid-item">
+      <img src="asset/images/pic18.jpg" height="300px"/>
+    </div>
+    <div class="grid-item">
+      <img src="asset/images/pic23.jpg" height="300px"/>
+    </div>
+    <div class="grid-item">
+      <img src="asset/images/pic20.jpg" height="300px"/>
+    </div>
+    <div class="grid-item">
+      <img src="asset/images/pic13.jpg" height="300px"/>
+    </div>
+    <div class="grid-item">
+      <img src="asset/images/pic21.jpg" height="300px"/>
+    </div>
+    <div class="grid-item">
+      <img src="asset/images/pic22.jpg" height="300px"/>
+    </div>   
+  </div>
   </body>
 </html
